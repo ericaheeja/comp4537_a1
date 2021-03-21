@@ -10,9 +10,9 @@ let app = express();
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
-app.set("port", process.env.PORT || 3000);
+const port = process.env.PORT || 3000;
 let server = http.createServer(app);
-server.listen(3000);
+server.listen(port);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
