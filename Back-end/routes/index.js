@@ -3,10 +3,10 @@ let router = express.Router();
 
 let mysql = require("mysql");
 let db = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "0505",
-  database: "assignment1",
+  host: "us-cdbr-east-03.cleardb.com",
+  user: "b09844da7e9447",
+  password: "ce642ee8",
+  database: "heroku_3dda2a16c6eb4f1",
 });
 
 router.get("/", function (req, res) {
