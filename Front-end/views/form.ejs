@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/form.css' />
+</head>
+<body>
+    <form method="post">
+        <div>Quote <input id="quoteInput" name="content" value="<%= quote.content %>" />
+        Author <input id="authorInput" name="name" value="<%= quote.name %>" /></div>
+        <input type="hidden" value="<%= quote.ID %>" />
+        <button>Save and replace DB</button>
+    </form>
+</body>
+</html>

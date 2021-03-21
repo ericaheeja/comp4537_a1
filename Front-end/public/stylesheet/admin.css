@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+}
+
+#contentId {
+  width: 300px;
+  height: 50px;
+  background-color: lightsteelblue;
+  border: 1px solid lightgray;
+  margin-right: 10px;
+}
+
+#nameId {
+  width: 100px;
+  height: 50px;
+  background-color: lightsteelblue;
+  border: 1px solid lightgray;
+  margin-right: 10px;
+}
+
+#contentDb {
+  width: 300px;
+  height: 50px;
+  background-color: darkorange;
+  border: 1px solid lightgray;
+  margin-right: 10px;
+}
+
+#nameDb {
+  width: 100px;
+  height: 50px;
+  background-color: darkorange;
+  border: 1px solid lightgray;
+  margin-right: 10px;
+}
